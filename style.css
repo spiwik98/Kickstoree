@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .navbar{
     display: flex;
     align-items: center;
@@ -32,4 +38,51 @@ a{
 
 p{
     color: #555;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+ }
+
+ .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+ .col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+ }
+
+ .col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+ }
+
+ .col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+ }
+
+ .btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #555;
+    padding: 8px 30px;
+    margin 30px 0;
+    border-radius: 30px;
+ }
+
+ .header{
+    background: linear-gradient(90deg, rgb(255, 157, 129) 24.3%, rgb(255, 78, 78) 78.3%);
+ }
+
+.header row{
+    margin-top: 70px;
 }
