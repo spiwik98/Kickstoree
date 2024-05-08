@@ -157,3 +157,17 @@ p{
 .col-4:hover{
     transform: translateY(-5px);
 }
+
+.offer{
+    background: linear-gradient(90deg, rgb(255, 157, 129) 24.3%, rgb(255, 78, 78) 78.3%);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col-2 .offer-img{
+    padding: 50px;
+}
+
+small{
+    color: #555;
+}
